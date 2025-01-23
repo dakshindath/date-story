@@ -8,7 +8,7 @@ function App() {
   const [data, setData] = useState("");
   const [filteredData, setFilteredData] = useState("");
 
-  // Fetch data for the current date
+  // Fetch data 
   useEffect(() => {
     const fetchData = () => {
       const currentDate = new Date();
@@ -28,7 +28,7 @@ function App() {
     fetchData();
   }, []);
 
-  // Handle search query 
+  // search 
   const handleSearch = (query) => {
     if (query) {
       const [month, day] = query.split('/');

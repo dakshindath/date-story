@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  font-family: 'Poppins', sans-serif; /* Updated font */
+  font-family: 'Poppins', sans-serif; 
   background: linear-gradient(135deg, #f3e5f5, #e1bee7);
   color: #333;
   display: flex;
